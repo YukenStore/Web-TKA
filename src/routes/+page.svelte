@@ -12,4 +12,4 @@
   </ul>
 {/if}
 
-<a href="/dashboard-user"> masuk ke dashboard-user</a>
+<a href="/siswa-pintar">login cuy</a>
