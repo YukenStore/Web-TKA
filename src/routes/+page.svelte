@@ -1,5 +1,7 @@
 <script lang="ts">
+import {resolve} from "$app/paths"
   let { data }= $props();
+
 </script>
 
 {#if data.testing.length === 0}
@@ -12,4 +14,4 @@
   </ul>
 {/if}
 
-<a href="/dashboard-user"> masuk ke dashboard-user</a>
+<a href={resolve("/dashboard-user")}> masuk ke dashboard-user</a>

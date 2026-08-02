@@ -1,2 +1,7 @@
+<script lang="ts">
+    import {resolve} from "$app/paths"
+</script>
+
+
 <p>halaman dashboard</p>
-<a href="/"> kembali</a>
+<a href={resolve("/")}> kembali</a>
