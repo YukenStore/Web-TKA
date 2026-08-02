@@ -1,5 +1,7 @@
 <script lang="ts">
+import {resolve} from "$app/paths"
   let { data }= $props();
+
 </script>
 
 {#if data.testing.length === 0}
