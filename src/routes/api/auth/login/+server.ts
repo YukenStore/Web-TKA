@@ -38,9 +38,9 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
             );
 
             if (error) {
-                console.error('❌ Gagal simpan ke Supabase di login handler:', error.message);
+                console.error('Gagal simpan ke Supabase di login handler:', error.message);
             } else {
-                console.log('✅ User berhasil disimpan ke Supabase di login handler:', payload.email);
+                console.log('User berhasil disimpan ke Supabase di login handler:', payload.email);
             }
         }
     } catch (e) {
@@ -50,6 +50,6 @@ export const POST: RequestHandler = async ({ request, cookies }) => {
     return json({ 
         success: true, 
         slug: slug,
-        redirectUrl: slug ? `/user/${slug}` : '/' 
+        redirectUrl: slug ? `/${slug}` : '/' 
     });
 };
