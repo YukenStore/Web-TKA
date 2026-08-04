@@ -1,9 +1,7 @@
-import { dash } from "@better-auth/infra";
+// import { dash } from "@better-auth/infra";
 
-export const auth = betterAuth({
-  // ... your existing config
-  plugins: [
-    // ... other plugins
-    dash()
-  ]
-})
+// export const auth = betterAuth({
+//   plugins: [
+//     dash()
+//   ]
+// })
