@@ -76,7 +76,7 @@
             <h2>Halo, {user.name}!</h2>
             <p>{user.email}</p>
             <div style="margin-top: 1rem; display: flex; gap: 0.5rem; justify-content: center;">
-                <a href="/user/{user.slug}" style="padding: 0.5rem 1rem; background-color: #2563eb; color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">Ke Dashboard Slug (/user/{user.slug})</a>
+                <a href="/{user.slug}" style="padding: 0.5rem 1rem; background-color: #2563eb; color: white; border-radius: 6px; text-decoration: none; font-weight: bold;">Ke Dashboard Slug (/user/{user.slug})</a>
                 <button onclick={logout} style="padding: 0.5rem 1rem; cursor: pointer; border-radius: 6px;">Logout</button>
             </div>
         </div>
